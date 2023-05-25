@@ -161,7 +161,7 @@ footer ul {
 }
 
 footer ul li {
-  padding: 1rem 1rem 0 1rem;
+  padding: 1rem;
 }
 
 footer a {
@@ -223,6 +223,9 @@ footer a:hover {
 @media (min-width: 750px) {
   html {
     font-size: 16px;
+  }
+  body {
+    overflow: scroll;
   }
   .container {
     width: 750px;
