@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Rakkas&display=swap');
+
+/* 
+  font-family: 'Aref Ruqaa', serif;
+font-family: 'Rakkas', cursive;
+  */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  direction: rtl;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+  text-align: center;
+}
+
+p {
+  font-size: 1.5rem;
+  font-family: 'Rakkas', cursive;
+}
+
+h1 {
+  font-size: 4rem;
+  font-family: 'Aref Ruqaa', serif;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: 'Aref Ruqaa', serif;
+}
