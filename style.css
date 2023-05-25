@@ -20,8 +20,8 @@ body {
   min-height: 100vh;
   position: relative;
   text-align: center;
-  background: url('images/1.jpeg');
-  background-position: 20% 100%;
+  background: url('images/1.jpg');
+  background-position: 20%;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -138,6 +138,10 @@ h2 {
 
 .address a:hover {
   color: #ffffff;
+}
+
+.address i {
+  margin: 0 0.5rem;
 }
 
 .container {
