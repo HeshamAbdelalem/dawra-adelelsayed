@@ -165,7 +165,7 @@ footer a:hover {
 }
 
 .download-book {
-  position: fixed;
+  position: absolute;
   top: 45%;
   background-color: tomato;
   padding: 0.5rem 0.5rem;
@@ -182,7 +182,7 @@ footer a:hover {
 }
 
 .live-link {
-  position: fixed;
+  position: absolute;
   top: 40%;
   /* left: 0; */
   background-color: tomato;
@@ -194,7 +194,7 @@ footer a:hover {
 }
 
 .lectures-link {
-  position: fixed;
+  position: absolute;
   top: 50%;
   /* left: 0; */
   background-color: tomato;
