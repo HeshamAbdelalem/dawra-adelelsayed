@@ -34,7 +34,7 @@ body::before {
   position: absolute;
   top: 0;
   left: 0;
-  background: linear-gradient(180deg, #fbffe37a, #22222286);
+  background: linear-gradient(180deg, #fbffe357, #222222f5);
   z-index: -1;
 }
 
@@ -67,8 +67,7 @@ h2 {
   padding: 1rem;
   background-color: tomato;
   display: inline-block;
-  animation: changebordercolor 1s ease-in-out infinite;
-  animation-direction: alternate;
+
   text-shadow: 1px 2px 3px #333;
 }
 
@@ -140,13 +139,74 @@ h2 {
   color: #ffffff;
 }
 
-/* .container {
-  min-width: 650px;
-} */
+.container {
+  position: relative;
+}
 
-@keyframes changebordercolor {
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer ul li {
+  padding: 1rem;
+}
+
+footer a {
+  color: #fff;
+  transition: all 300ms ease-in-out;
+}
+
+footer a:hover {
+  color: tomato;
+}
+
+.download-book {
+  position: fixed;
+  top: 45%;
+  background-color: tomato;
+  padding: 0.5rem 0.5rem;
+  animation: download 1s ease-in-out infinite;
+  animation-direction: alternate;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.fixed-buttons a {
+  color: #fff;
+  font-family: 'Rakkas', cursive;
+  text-decoration: none;
+}
+
+.live-link {
+  position: fixed;
+  top: 40%;
+  /* left: 0; */
+  background-color: tomato;
+  padding: 0.5rem 0.5rem;
+  animation: download 1s ease-in-out infinite;
+  animation-direction: alternate;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.lectures-link {
+  position: fixed;
+  top: 50%;
+  /* left: 0; */
+  background-color: tomato;
+  padding: 0.5rem 0.5rem;
+  animation: download 1s ease-in-out infinite;
+  animation-direction: alternate;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+@keyframes download {
   to {
-    border-color: tomato;
+    background-color: rgb(190, 72, 51);
   }
 }
 
