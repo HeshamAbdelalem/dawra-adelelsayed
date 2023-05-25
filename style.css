@@ -137,9 +137,9 @@ h2 {
   color: #ffffff;
 }
 
-.container {
+/* .container {
   min-width: 650px;
-}
+} */
 
 @keyframes changebordercolor {
   to {
