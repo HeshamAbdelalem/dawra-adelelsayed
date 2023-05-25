@@ -92,6 +92,7 @@ h2 {
 
 .author h1 {
   color: #fff;
+  padding: 1rem;
   text-shadow: 2px 3px 1px tomato;
 }
 
