@@ -39,7 +39,7 @@ body::before {
   position: absolute;
   top: 0;
   left: 0;
-  background: linear-gradient(360deg, #a9a9a925, #222222e9);
+  background: linear-gradient(360deg, #a9a9a925, #000120c2);
   z-index: -1;
 }
 
