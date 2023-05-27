@@ -17,15 +17,25 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
+
     <title>دورة شرح كتاب جامع العلوم والحكم</title>
   </head>
   <body>
     <div class="container">
       <header>
         <p class="head1">الدورة العلمية السنوية لعام ١٤٤٤ هـ</p>
-        <audio autoplay>
-          <source src="nase7a.mp4" type="audio/mpeg" />
-        </audio>
+        <video
+          height="256"
+          loop
+          autoplay
+          muted
+          controls
+          style="display: none"
+          id="vid"
+        >
+          <source type="video/mp4" src="nase7a.mp4" />
+        </video>
+
         <p class="head-date">
           بداية من يوم الأثنين الموافق ٢٧ من ذي القعدة ولمدة ١٠ أيام
         </p>
@@ -131,5 +141,9 @@
         </div>
       </div>
     </div>
+    <script>
+      document.querySelector('video').addEventListener('load', function () {
+        console.log(this)
+    </script>
   </body>
 </html>
