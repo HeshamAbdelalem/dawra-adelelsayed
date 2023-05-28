@@ -87,6 +87,18 @@ h2 {
 .book-head2 {
   color: #fff;
   text-shadow: 1px 2px 5px var(--main-color);
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px var(--main-color),
+      0 0 40px var(--main-color), 0 0 50px var(--main-color);
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff755d, 0 0 40px #ff755d,
+      0 0 50px #ff755d, 0 0 60px #ff755d;
+  }
 }
 
 .author .author-title {
